@@ -15,11 +15,9 @@ class Client {
     void processMessage(String type){
         IConnection connection;
 
-        //create listener container...
-
-        //gather configurations...
-
         connection = connectionFactory.createConnection(type);
+
+        connection.setConfigs();
 
         connection.sendMessage();
     }
@@ -50,28 +48,44 @@ class ConnectionFactory{
 }
 
 interface IConnection{
+    public void setConfigs();
     public void sendMessage();
 }
 
 
 class KafkaConnection implements IConnection{
     @Override
+    public void setConfigs(){
+        System.out.println("~~ setting up Kafka configs ~~");
+    }
+
+    @Override
     public void sendMessage(){
-        System.out.println("sending message to Kafka topic...");
+        System.out.println("-> SENDING message to Kafka topic -> ");
     }
 }
 
 class RabbitMQConnection implements IConnection{
     @Override
+    public void setConfigs(){
+        System.out.println("~~ setting up RabbitMQ configs ~~");
+    }
+
+    @Override
     public void sendMessage(){
-        System.out.println("sending message to RabbitMQ exchange...");
+        System.out.println("-> SENDING message to RabbitMQ exchange ->");
     }
 }
 
 class AmazonSQSConnection implements IConnection{
     @Override
+    public void setConfigs(){
+        System.out.println("~~ setting up AmazonSQS configs ~~");
+    }
+
+    @Override
     public void sendMessage(){
-        System.out.println("sending message to AmazonSQS queue...");
+        System.out.println("-> SENDING message to AmazonSQS queue ->");
     }
 }
 
