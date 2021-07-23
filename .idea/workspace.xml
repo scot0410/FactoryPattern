@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ed48b57-5774-4a2f-89f5-2021b169ac5a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/SimpleFactoryExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleFactoryExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleFactoryExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/FactoryMethodExample.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,13 +37,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SimpleFactoryExample.java">
+        <entry file="file://$PROJECT_DIR$/FactoryMethodExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="21" column="29" selection-start-line="21" selection-end-line="22" />
+            <state relative-caret-position="475">
+              <caret line="154" column="4" selection-start-line="154" selection-start-column="4" selection-end-line="154" selection-end-column="4" />
               <folding>
-                <element signature="e#300#301#0" expanded="true" />
-                <element signature="e#358#359#0" expanded="true" />
+                <element signature="e#1335#1336#0" expanded="true" />
+                <element signature="e#1403#1404#0" expanded="true" />
+                <element signature="e#1449#1450#0" expanded="true" />
+                <element signature="e#1524#1525#0" expanded="true" />
+                <element signature="e#1620#1621#0" expanded="true" />
+                <element signature="e#1691#1692#0" expanded="true" />
+                <element signature="e#1737#1738#0" expanded="true" />
+                <element signature="e#1817#1818#0" expanded="true" />
+                <element signature="e#1914#1915#0" expanded="true" />
+                <element signature="e#1986#1987#0" expanded="true" />
+                <element signature="e#2032#2033#0" expanded="true" />
+                <element signature="e#2110#2111#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -52,13 +63,13 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>'</find>
       <find>ConnectionFactory</find>
       <find>connect</find>
+      <find>'</find>
     </findStrings>
     <replaceStrings>
-      <replace>&quot;</replace>
       <replace>sendMessage</replace>
+      <replace>&quot;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -80,6 +91,7 @@
         <option value="$PROJECT_DIR$/Client.java" />
         <option value="$PROJECT_DIR$/SimpleFactoryClient.java" />
         <option value="$PROJECT_DIR$/SimpleFactoryExample.java" />
+        <option value="$PROJECT_DIR$/FactoryMethodExample.java" />
       </list>
     </option>
   </component>
@@ -198,13 +210,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SimpleFactoryExample.java">
+    <entry file="file://$PROJECT_DIR$/FactoryMethodExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="29" selection-start-line="21" selection-end-line="22" />
+        <state relative-caret-position="475">
+          <caret line="154" column="4" selection-start-line="154" selection-start-column="4" selection-end-line="154" selection-end-column="4" />
           <folding>
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#1335#1336#0" expanded="true" />
+            <element signature="e#1403#1404#0" expanded="true" />
+            <element signature="e#1449#1450#0" expanded="true" />
+            <element signature="e#1524#1525#0" expanded="true" />
+            <element signature="e#1620#1621#0" expanded="true" />
+            <element signature="e#1691#1692#0" expanded="true" />
+            <element signature="e#1737#1738#0" expanded="true" />
+            <element signature="e#1817#1818#0" expanded="true" />
+            <element signature="e#1914#1915#0" expanded="true" />
+            <element signature="e#1986#1987#0" expanded="true" />
+            <element signature="e#2032#2033#0" expanded="true" />
+            <element signature="e#2110#2111#0" expanded="true" />
           </folding>
         </state>
       </provider>
