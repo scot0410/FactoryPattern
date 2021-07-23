@@ -2,9 +2,13 @@ public class SimpleFactoryClient{
     public static void main(String[] args){
         ConnectionFactory connectionFactory = new ConnectionFactory();
 
+        //create listener container...
+        //gather configurations...
+
         IConnection kafkaConnection = connectionFactory.createConnection("Kafka");
 
-        kafkaConnection.connect();
+        kafkaConnection.sendMessage();
+        //process message
     }
 }
 
@@ -25,28 +29,28 @@ class ConnectionFactory{
 }
 
 interface IConnection{
-    public void connect();
+    public void sendMessage();
 }
 
 
 class KafkaConnection implements IConnection{
     @Override
-    public void connect(){
-        System.out.println("connecting to Kafka...");
+    public void sendMessage(){
+        System.out.println("sending message to Kafka topic...");
     }
 }
 
 class RabbitMQConnection implements IConnection{
     @Override
-    public void connect(){
-        System.out.println("connecting to Rabbit...");
+    public void sendMessage(){
+        System.out.println("sending message to RabbitMQ exchange...");
     }
 }
 
 class AmazonSQSConnection implements IConnection{
     @Override
-    public void connect(){
-        System.out.println("connecting to AmazonSQS...");
+    public void sendMessage(){
+        System.out.println("sending message to AmazonSQS queue...");
     }
 }
 
