@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ed48b57-5774-4a2f-89f5-2021b169ac5a" name="Default Changelist" comment="" />
+    <list default="true" id="5ed48b57-5774-4a2f-89f5-2021b169ac5a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleFactoryClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleFactoryExample.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,10 +26,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SimpleFactoryClient.java">
+        <entry file="file://$PROJECT_DIR$/SimpleFactoryExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="31" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="31" />
+            <state relative-caret-position="513">
+              <caret line="40" column="25" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="25" />
               <folding>
                 <element signature="e#1007#1008#0" expanded="true" />
                 <element signature="e#1068#1069#0" expanded="true" />
@@ -41,9 +44,11 @@
     <findStrings>
       <find>'</find>
       <find>ConnectionFactory</find>
+      <find>connect</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;</replace>
+      <replace>sendMessage</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -64,6 +69,7 @@
         <option value="$PROJECT_DIR$/KafkaConnection.java" />
         <option value="$PROJECT_DIR$/Client.java" />
         <option value="$PROJECT_DIR$/SimpleFactoryClient.java" />
+        <option value="$PROJECT_DIR$/SimpleFactoryExample.java" />
       </list>
     </option>
   </component>
@@ -127,7 +133,7 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -142,7 +148,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="SonarLint" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32959184" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -173,10 +179,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SimpleFactoryClient.java">
+    <entry file="file://$PROJECT_DIR$/SimpleFactoryExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="31" />
+        <state relative-caret-position="513">
+          <caret line="40" column="25" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="25" />
           <folding>
             <element signature="e#1007#1008#0" expanded="true" />
             <element signature="e#1068#1069#0" expanded="true" />

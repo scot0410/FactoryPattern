@@ -1,30 +1,46 @@
-public class SimpleFactoryClient{
+public class SimpleFactoryExample{
     public static void main(String[] args){
+        Client client = new Client();
+        client.processMessage("Kafka");
+    }
+}
+
+class Client {
+    void processMessage(String type){
         ConnectionFactory connectionFactory = new ConnectionFactory();
+        IConnection connection;
 
         //create listener container...
+
         //gather configurations...
 
-        IConnection kafkaConnection = connectionFactory.createConnection("Kafka");
+        connection = connectionFactory.createConnection(type);
 
-        kafkaConnection.sendMessage();
-        //process message
+        connection.sendMessage();
     }
 }
 
 class ConnectionFactory{
+
     //object creation is encapsulated here
     IConnection createConnection(String type){
+        IConnection connection;
+
         switch (type){
             case "Kafka":
-                return new KafkaConnection();
+                connection = new KafkaConnection();
+                break;
             case "RabbitMQ":
-                return new RabbitMQConnection();
+                connection = new RabbitMQConnection();
+                break;
             case "AmazonSQS":
-                return new AmazonSQSConnection();
+                connection = new AmazonSQSConnection();
+                break;
             default:
                 return null;
         }
+
+        return connection;
     }
 }
 
