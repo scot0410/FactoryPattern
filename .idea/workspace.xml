@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ed48b57-5774-4a2f-89f5-2021b169ac5a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleFactoryClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleFactoryExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleFactoryExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleFactoryExample.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,15 +24,22 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SimpleFactoryExample.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#312#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SimpleFactoryExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="40" column="25" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="25" />
-              <folding>
-                <element signature="e#1007#1008#0" expanded="true" />
-                <element signature="e#1068#1069#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="116">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -179,14 +185,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SimpleFactoryExample.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#312#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SimpleFactoryExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="40" column="25" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="25" />
-          <folding>
-            <element signature="e#1007#1008#0" expanded="true" />
-            <element signature="e#1068#1069#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="116">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
         </state>
       </provider>
     </entry>

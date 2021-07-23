@@ -1,13 +1,18 @@
 public class SimpleFactoryExample{
     public static void main(String[] args){
-        Client client = new Client();
+        Client client = new Client(new ConnectionFactory());
         client.processMessage("Kafka");
     }
 }
 
 class Client {
+    ConnectionFactory connectionFactory;
+
+    public Client(ConnectionFactory connectionFactory){
+        this.connectionFactory = connectionFactory;
+    }
+
     void processMessage(String type){
-        ConnectionFactory connectionFactory = new ConnectionFactory();
         IConnection connection;
 
         //create listener container...
