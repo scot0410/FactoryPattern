@@ -52,5 +52,7 @@ class AmazonSQSConnection implements IConnection{
 /**
  * No Factory method
  * Cons: not really possible to have more than one client here..
+ *       if we had a factory, we could not only encapsulate and hide away this object creation logic,
+ *       but we could have multiple clients using the factory to create connections.
  */
 
